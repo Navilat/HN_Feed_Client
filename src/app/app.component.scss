@@ -1,0 +1,43 @@
+.mat-table {
+    overflow: auto;
+    max-height: 500px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px #ccc;
+  }
+
+  .mat-column-del {
+      width: 10%;
+  }
+  
+  .mat-row:hover {
+    background-color: #fafafa;
+    cursor: pointer;
+  }
+
+  .title-style {
+      color: #333;
+      font-size: 13pt;
+  }
+  .author-style {
+      color: #999;
+  }
+
+  /*
+  div button.only-show-on-hover {
+      visibility: hidden;
+  }
+
+  div:hover button.only-show-on-hover {
+      visibility: visible;
+  }
+  */
+
+  .mat-button.mat-small {
+      min-width: 1%;
+  }
+
+  .header-style {
+      background-color: #333333;
+      color: white;
+  }
